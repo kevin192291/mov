@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.11)
-
+SET(PROJECT_NAME MyExample)
 project(
   ModernCMakeExample
   VERSION 1.0
@@ -14,18 +14,23 @@ project(
 
   if(CMAKE_COMPILER_IS_GNUCXX OR APPLE)
     if(PROJECT_STATIC_RUNTIME)
-        SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -std=c++14 -static -g")
+        SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -std=c++17 -static -g")
     else()
-        SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -std=c++14 -g")
+        SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -std=c++17 -g")
     endif()
   endif()
 
   SET (CMAKE_CXX_FLAGS_DEBUG "-g -D_DEBUG_")
   SET (CMAKE_CXX_FLAGS_RELEASE "-O4 -DNDEBUG")
-  set (CMAKE_CXX_FLAGS_DEBUG "-g -DDEBUG") 
+  SET (CMAKE_CXX_FLAGS_DEBUG "-g -DDEBUG")
+  SET (PROJECT_SRC src/main.cpp)
 
-  add_executable(MyExample main.cpp)
+  if(WIN32)
+    add_executable(${PROJECT_NAME} WIN32 ${PROJECT_SRC})
+  else()
+    add_executable(${PROJECT_NAME} ${PROJECT_SRC})
+  endif()
 
-  target_link_libraries(MyExample PRIVATE sfml-graphics sfml-window sfml-system tmxlite)
+  target_link_libraries(${PROJECT_NAME} PRIVATE sfml-graphics sfml-window sfml-system tmxlite)
 
   install(DIRECTORY assets DESTINATION .)
