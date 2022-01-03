@@ -1,0 +1,162 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "overworld.tmx",
+    "automapping.whileDrawing": true,
+    "expandedProjectPaths": [
+        "/home/kevin/source/repos/TypescriptZelda/game/assets/tilemaps",
+        "."
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "": {
+            "scaleInEditor": 2
+        },
+        "/home/kevin/source/repos/C++/mov/assets/Overworld (Light).tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "/home/kevin/source/repos/C++/mov/assets/demo.tmx": {
+            "scale": 0.96,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 479.1666666666667,
+                "y": 256.25
+            }
+        },
+        "/home/kevin/source/repos/C++/mov/assets/demo.tmx#tileset": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "/home/kevin/source/repos/C++/mov/assets/dungeons.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "/home/kevin/source/repos/C++/mov/assets/overworld.tmx": {
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 272.6666666666667,
+                "y": 261
+            }
+        },
+        "/home/kevin/source/repos/C++/mov/assets/overworld.tmx#Overworld (Light)": {
+            "scaleInDock": 1
+        },
+        "/home/kevin/source/repos/C++/mov/assets/overworld_light.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "/home/kevin/source/repos/C++/mov/assets/sprites.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "/home/kevin/source/repos/TypescriptZelda/game/assets/tilemaps/castle.json": {
+            "scale": 0.5551562499999999,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 967.2952434562344,
+                "y": 754.7424711511401
+            }
+        },
+        "/home/kevin/source/repos/TypescriptZelda/game/assets/tilemaps/castle.json#world": {
+            "scaleInDock": 1
+        },
+        "/home/kevin/source/repos/TypescriptZelda/game/assets/tilemaps/subcastle.json": {
+            "scale": 1.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 274.66666666666663,
+                "y": 194
+            }
+        },
+        "/home/kevin/source/repos/TypescriptZelda/game/assets/tilemaps/subcastle.json#world": {
+            "scaleInDock": 1
+        },
+        "/home/kevin/source/repos/fallahn/tmxlite/SFMLExample/assets/demo.tmx": {
+            "scale": 1.0826041666666666,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 423.97767728278654,
+                "y": 256.7882228422977
+            }
+        },
+        "/home/kevin/source/repos/fallahn/tmxlite/SFMLExample/assets/demo.tmx#tileset": {
+            "scaleInDock": 1
+        },
+        "/home/kevin/source/repos/fallahn/tmxlite/SFMLExample/assets/demo2.tmx": {
+            "scale": 1.0826041666666666,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 423.97767728278654,
+                "y": 256.7882228422977
+            }
+        },
+        "/home/kevin/source/repos/fallahn/tmxlite/SFMLExample/assets/demo2.tmx#tileset": {
+            "scaleInDock": 1
+        },
+        "houseRules.tmx": {
+            "scale": 1.5131048387096773,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 232.63424383744174,
+                "y": 240.56495669553635
+            }
+        },
+        "houseRules.tmx#Overworld (Light)": {
+            "scaleInDock": 1
+        },
+        "overworld.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 59.99999999999999,
+                "y": 90.99999999999997
+            }
+        },
+        "overworld.tmx#Overworld (Light)": {
+            "scaleInDock": 1.5
+        },
+        "overworld.tmx#Sprites": {
+            "scaleInDock": 1.5,
+            "scaleInEditor": 2
+        },
+        "overworld.tmx#ui": {
+            "scaleInDock": 1.5
+        }
+    },
+    "frame.defaultDuration": 400,
+    "last.imagePath": "/home/kevin/source/repos/cpp/mov/assets/images/tilemap",
+    "map.fixedSize": true,
+    "map.height": 30,
+    "map.lastUsedFormat": "tmx",
+    "map.layerDataFormat": null,
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 30,
+    "openFiles": [
+        "overworld.tmx"
+    ],
+    "project": "mov.tiled-project",
+    "recentFiles": [
+        "overworld.tmx",
+        "/home/kevin/source/repos/C++/mov/assets/overworld.tmx",
+        "/home/kevin/source/repos/C++/mov/assets/Overworld (Light).tsx",
+        "/home/kevin/source/repos/C++/mov/assets/demo.tmx",
+        "/home/kevin/source/repos/C++/mov/assets/sprites.tsx",
+        "/home/kevin/source/repos/C++/mov/assets/dungeons.tsx",
+        "/home/kevin/source/repos/C++/mov/assets/overworld_light.tsx",
+        "/home/kevin/source/repos/fallahn/tmxlite/SFMLExample/assets/demo.tmx",
+        "/home/kevin/source/repos/fallahn/tmxlite/SFMLExample/assets/demo2.tmx",
+        "/home/kevin/source/repos/TypescriptZelda/game/assets/tilemaps/castle.json",
+        "/home/kevin/source/repos/TypescriptZelda/game/assets/tilemaps/subcastle.json"
+    ],
+    "tileset.embedInMap": true,
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
+}

@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="50" height="38" tilewidth="16" tileheight="16" infinite="0" nextlayerid="50" nextobjectid="1">
+ <tileset firstgid="1" name="Overworld (Light)" tilewidth="16" tileheight="16" tilecount="1984" columns="62">
+  <image source="images/tilemap/Overworld (Light).png" width="1001" height="512"/>
+  <tile id="0">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+    <object id="3" x="0.165119" y="0.165119" width="15.6863" height="4.74716"/>
+    <object id="5" x="1.03199" y="4.99484" width="13.9112" height="7.96698"/>
+    <object id="6" x="4.99484" y="13.0031" width="5.94427" height="2.93086"/>
+   </objectgroup>
+  </tile>
+  <tile id="1">
+   <objectgroup draworder="index" id="2">
+    <object id="3" x="1.07327" y="2.18782" width="13.87" height="12.7141"/>
+   </objectgroup>
+  </tile>
+  <tile id="2">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0.288958" y="0.454076" width="15.5624" height="15.4386"/>
+   </objectgroup>
+  </tile>
+  <tile id="12">
+   <objectgroup draworder="index" id="4">
+    <object id="8" x="7.1001" y="0.123839">
+     <polygon points="0,0 -6.97626,7.05882 -7.05882,15.6863 8.71001,15.7688 8.75129,0.0412797"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="13">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="8.50361" y="0.206398">
+     <polygon points="0,0 7.3065,6.85243 7.34778,15.645 -8.37977,15.645 -8.37977,-0.165119"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="30">
+   <animation>
+    <frame tileid="30" duration="100"/>
+    <frame tileid="92" duration="100"/>
+    <frame tileid="154" duration="100"/>
+    <frame tileid="216" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="31">
+   <animation>
+    <frame tileid="31" duration="500"/>
+    <frame tileid="93" duration="500"/>
+    <frame tileid="155" duration="500"/>
+    <frame tileid="217" duration="500"/>
+   </animation>
+  </tile>
+  <tile id="32">
+   <animation>
+    <frame tileid="32" duration="200"/>
+    <frame tileid="94" duration="200"/>
+    <frame tileid="156" duration="200"/>
+    <frame tileid="218" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="33">
+   <animation>
+    <frame tileid="33" duration="300"/>
+    <frame tileid="95" duration="300"/>
+    <frame tileid="157" duration="300"/>
+    <frame tileid="219" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="34">
+   <animation>
+    <frame tileid="34" duration="300"/>
+    <frame tileid="96" duration="300"/>
+    <frame tileid="158" duration="300"/>
+    <frame tileid="220" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="35">
+   <animation>
+    <frame tileid="35" duration="300"/>
+    <frame tileid="97" duration="300"/>
+    <frame tileid="159" duration="300"/>
+    <frame tileid="221" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="62">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0.949432" y="0.165119" width="14.0351" height="15.7688"/>
+   </objectgroup>
+  </tile>
+  <tile id="63">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="1.11455" y="2.10526" width="5.82043" height="12.8793"/>
+    <object id="2" x="9.08153" y="2.14654" width="5.86171" height="12.7967"/>
+   </objectgroup>
+  </tile>
+  <tile id="64">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0.165119" y="0.123839" width="14.4479" height="15.6863"/>
+   </objectgroup>
+  </tile>
+  <tile id="68">
+   <animation>
+    <frame tileid="68" duration="1000"/>
+    <frame tileid="69" duration="1000"/>
+    <frame tileid="70" duration="1000"/>
+    <frame tileid="71" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="74">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0.206398" y="0.123839">
+     <polygon points="0,0 0,9.70072 9.82456,15.5212 15.6037,15.645 15.5624,0.0825593"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="75">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0.123839" y="0.165119">
+     <polygon points="0,0 15.7276,0.0412797 15.7688,9.70072 5.4902,15.5624 0.0412797,15.6863"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="124">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0.123839" y="0.123839" width="15.8101" height="4.91228"/>
+    <object id="2" x="1.11455" y="5.20124" width="13.7874" height="7.67802"/>
+    <object id="3" x="5.15996" y="13.0444" width="5.73787" height="2.88958"/>
+   </objectgroup>
+  </tile>
+  <tile id="125">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="1.11455" y="2.0227" width="13.8287" height="12.8793"/>
+   </objectgroup>
+  </tile>
+  <tile id="130">
+   <animation>
+    <frame tileid="130" duration="1000"/>
+    <frame tileid="131" duration="1000"/>
+    <frame tileid="132" duration="1000"/>
+    <frame tileid="133" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="186">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="1.23839" y="0.247678" width="13.3746" height="15.5624"/>
+   </objectgroup>
+  </tile>
+  <tile id="188">
+   <objectgroup draworder="index" id="3">
+    <object id="2" x="0.990712" y="0.123839" width="13.8287" height="15.5624"/>
+   </objectgroup>
+  </tile>
+  <tile id="248">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0.165119" y="0.0825593" width="15.6863" height="15.7688"/>
+   </objectgroup>
+  </tile>
+  <tile id="249">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0.123839" y="0.123839" width="15.8101" height="15.7688"/>
+   </objectgroup>
+  </tile>
+  <tile id="250">
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0.247678" y="0.165119" width="15.5624" height="15.6037"/>
+   </objectgroup>
+  </tile>
+  <tile id="279">
+   <animation>
+    <frame tileid="279" duration="300"/>
+    <frame tileid="341" duration="300"/>
+    <frame tileid="403" duration="300"/>
+    <frame tileid="465" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="280">
+   <animation>
+    <frame tileid="280" duration="300"/>
+    <frame tileid="342" duration="300"/>
+    <frame tileid="404" duration="300"/>
+    <frame tileid="466" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="282">
+   <animation>
+    <frame tileid="282" duration="1000"/>
+    <frame tileid="344" duration="1000"/>
+    <frame tileid="406" duration="1000"/>
+    <frame tileid="468" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="405">
+   <animation>
+    <frame tileid="405" duration="1000"/>
+    <frame tileid="467" duration="500"/>
+   </animation>
+  </tile>
+  <tile id="712">
+   <animation>
+    <frame tileid="712" duration="1000"/>
+    <frame tileid="774" duration="1000"/>
+    <frame tileid="836" duration="1000"/>
+    <frame tileid="898" duration="1000"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="1985" name="Sprites" tilewidth="16" tileheight="16" tilecount="1984" columns="62">
+  <image source="images/tilemap/Sprites.png" width="1000" height="512"/>
+  <tile id="0">
+   <animation>
+    <frame tileid="0" duration="300"/>
+    <frame tileid="62" duration="300"/>
+    <frame tileid="63" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="2">
+   <animation>
+    <frame tileid="2" duration="300"/>
+    <frame tileid="64" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="10">
+   <animation>
+    <frame tileid="10" duration="300"/>
+    <frame tileid="72" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="11">
+   <animation>
+    <frame tileid="11" duration="300"/>
+    <frame tileid="73" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="12">
+   <animation>
+    <frame tileid="12" duration="300"/>
+    <frame tileid="74" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="13">
+   <animation>
+    <frame tileid="13" duration="300"/>
+    <frame tileid="75" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="14">
+   <animation>
+    <frame tileid="14" duration="300"/>
+    <frame tileid="76" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="15">
+   <animation>
+    <frame tileid="15" duration="300"/>
+    <frame tileid="77" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="16">
+   <animation>
+    <frame tileid="16" duration="300"/>
+    <frame tileid="78" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="17">
+   <animation>
+    <frame tileid="17" duration="300"/>
+    <frame tileid="79" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="18">
+   <animation>
+    <frame tileid="18" duration="300"/>
+    <frame tileid="80" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="19">
+   <animation>
+    <frame tileid="19" duration="300"/>
+    <frame tileid="81" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="20">
+   <animation>
+    <frame tileid="20" duration="300"/>
+    <frame tileid="82" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="21">
+   <animation>
+    <frame tileid="21" duration="300"/>
+    <frame tileid="83" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="22">
+   <animation>
+    <frame tileid="22" duration="300"/>
+    <frame tileid="84" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="23">
+   <animation>
+    <frame tileid="23" duration="300"/>
+    <frame tileid="85" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="27">
+   <animation>
+    <frame tileid="27" duration="300"/>
+    <frame tileid="89" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="29">
+   <animation>
+    <frame tileid="29" duration="200"/>
+    <frame tileid="28" duration="200"/>
+    <frame tileid="90" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="30">
+   <animation>
+    <frame tileid="30" duration="300"/>
+    <frame tileid="92" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="31">
+   <animation>
+    <frame tileid="31" duration="300"/>
+    <frame tileid="93" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="32">
+   <animation>
+    <frame tileid="32" duration="300"/>
+    <frame tileid="94" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="33">
+   <animation>
+    <frame tileid="33" duration="300"/>
+    <frame tileid="95" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="34">
+   <animation>
+    <frame tileid="34" duration="300"/>
+    <frame tileid="96" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="35">
+   <animation>
+    <frame tileid="35" duration="300"/>
+    <frame tileid="97" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="36">
+   <animation>
+    <frame tileid="36" duration="300"/>
+    <frame tileid="98" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="37">
+   <animation>
+    <frame tileid="37" duration="300"/>
+    <frame tileid="38" duration="150"/>
+    <frame tileid="100" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="748">
+   <animation>
+    <frame tileid="748" duration="1000"/>
+    <frame tileid="810" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="750">
+   <animation>
+    <frame tileid="750" duration="1000"/>
+    <frame tileid="811" duration="1000"/>
+    <frame tileid="751" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="992">
+   <animation>
+    <frame tileid="992" duration="400"/>
+    <frame tileid="993" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="996">
+   <animation>
+    <frame tileid="996" duration="400"/>
+    <frame tileid="997" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="1054">
+   <animation>
+    <frame tileid="1054" duration="300"/>
+    <frame tileid="1055" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="1056">
+   <animation>
+    <frame tileid="1056" duration="300"/>
+    <frame tileid="1057" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="1058">
+   <animation>
+    <frame tileid="1058" duration="300"/>
+    <frame tileid="1059" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="1060">
+   <animation>
+    <frame tileid="1060" duration="300"/>
+    <frame tileid="1061" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="1116">
+   <animation>
+    <frame tileid="1116" duration="300"/>
+    <frame tileid="1117" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="1118">
+   <animation>
+    <frame tileid="1118" duration="300"/>
+    <frame tileid="1119" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="1120">
+   <animation>
+    <frame tileid="1120" duration="300"/>
+    <frame tileid="1121" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="1123">
+   <animation>
+    <frame tileid="1123" duration="300"/>
+    <frame tileid="1122" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="1200">
+   <animation>
+    <frame tileid="1200" duration="100"/>
+    <frame tileid="1201" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="1550">
+   <animation>
+    <frame tileid="1550" duration="200"/>
+    <frame tileid="1551" duration="200"/>
+    <frame tileid="1552" duration="200"/>
+    <frame tileid="1553" duration="200"/>
+    <frame tileid="1554" duration="200"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="3969" name="ui" tilewidth="16" tileheight="16" tilecount="512" columns="32">
+  <image source="images/tilemap/GUI.png" width="512" height="256"/>
+ </tileset>
+ <group id="49" name="aaa">
+  <layer id="1" name="ground" width="50" height="38">
+   <data encoding="base64" compression="zlib">
+   eJztmM1uEzEQgMcKL4BEkSil4Ue0T1EqkHKGUiQElLYIeA9eAG6EJuGMhMRLtFyRqESBhAuUCzxEpXZG9ihTY3vtXSfZ0K70yetde+NvPePdTRMA7sP0b034vzy2kZ0p5aPwOCQpVW9anjEq5ffw9akjIY9p4tSjXozbY1Q5d5Ln4wIWsx4uWtf4icWvBPZL3ssyHtS26eGBdY0FLBaReVUMt83poTJ4UC48Q55HenDb9TNDcnvI/DyHzCCvVPF8dJBehMO8aJvb433D3eel0rnwSRx7jUUbeVMjj5vIcsCD7vlZLL+KMX/BYg+OH5u0B89FLo8BshbBd9NWesT4UMxLjyXcv4HcMh7bUM6D19p90B7dBGg+ZP/YeSGPORPrd5XO3SXjQSXlwqrhntJztubxYy6ZOGmqch6yf4rHQ9D3nr5FtpBd4/EZy/M036DpQ5zHIxMnjx0evyFc71n9Uz0OTYx9g+G4eezkyN9dL1SxR0eMyfa4jFxBriLXTN32kP3LeLRg+I3I+cFjl+2LPChf+0rnLO8z68gGsok8MXV5fmD1T/XgHCd4zW2IY/JckUeItwV1mxQPyom2QOYH1Q9A73dA04X0tZH5UVCv4nEbuRPgwJEzZT1SkdcNfbvI9cr3f8qHxr/nXR4hYsdcti952O9W0pvOk0fMO73vfqV4lP1edHnY510e9HyUORUbGzna5fSgNWtPED0+uy142o3Bg+Y+xoNjRMb6U6st1ausFfwbVebjDx7/a4iNG3usudY66eHKsZDHdfz9hQKqjm+UcZXiEXLJ+V8WP887HujZTpt8nhP0HlzVI/d82O+4khXj4XoPrpuHzFcXtLmOvxuTR0z8qYj4oC1mvJOej7p4VM37I9udXnM=
+  </data>
+  </layer>
+ </group>
+ <objectgroup id="14" name="grandma"/>
+ <layer id="3" name="water" width="50" height="38">
+  <data encoding="base64" compression="zlib">
+   eJztzzEOwCAMBEE/5ZL/PzINBQU4MQ1ctCNtacuOAAAAADBytdzxx1nulislOVGSEyU5UZITLVbdtcPslr7q3A6zW/qqc6dRvP/hQPGvP7Ic6EMAAGDdAwCqDms=
+  </data>
+ </layer>
+ <objectgroup id="4" name="enemy"/>
+ <layer id="2" name="trees" width="50" height="38">
+  <data encoding="base64" compression="zlib">
+   eJzt2UEKgCAQheHx/oeqixUVEUiYwaDms//b6EqU5zgLzU5TMJuD7nhZ9vkadEcA6M39nVU1yjvbKo+4z3rkevWhVR5xn/V469WK9eHNo+ZZPWt786h59zxrf1kfJT3tWbFGUhQzSSGPvpAH8F/UPwCUlfs7UJL7OwAwvg1jX5fp
+  </data>
+ </layer>
+ <layer id="5" name="objects_1" width="50" height="38">
+  <data encoding="base64" compression="zlib">
+   eJzt1rsNgDAMRVF3NEiZlW2ASYBF+ExDOhpLyEEhv3sk98/OKyICAN/sXeoE7ajx1iE71XgH2NABO24GzVsvhv6fHDGMTmRSZnapk9ksPu+qzFbYHofPeypzFbYH0CL+EPXL6Y1zymJVcnY8eEfERsfQAnoe5gYS3R0K
+  </data>
+ </layer>
+</map>

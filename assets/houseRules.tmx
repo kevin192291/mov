@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="16" tileheight="16" infinite="0" nextlayerid="5" nextobjectid="1">
+ <tileset firstgid="1" name="Overworld (Light)" tilewidth="16" tileheight="16" tilecount="1984" columns="62">
+  <image source="images/tilemap/Overworld (Light).png" width="1001" height="512"/>
+ </tileset>
+ <layer id="1" name="regions" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYBg4IM+CwMSIj9o7CogBo/E7vMFAhedouhoFtACj6WoUjIJRMApGwUADAE5+B8w=
+  </data>
+ </layer>
+ <layer id="2" name="input_objects_1" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztw7EJACAMRcHEFQQncjcnE2wER7LMb1OIzTs4s3+qVE0CWVuqI4Gs4VH1EoGs6VEtjwAAvHQBTokMag==
+  </data>
+ </layer>
+ <layer id="4" name="output_objects_1" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztlDkOwkAQBGedmkvifBAmxxxfAiLOL2EOyeZ4EZUQMMIBwQgJpqQKtqVVB71ake/RxBa2Vd7BLvaMeoeY4kjlY5zg1Kh3iStcq3yDW9wZ9f4bORZ4UfkVb3g36o2DSAWr4TWvca5jI7y/53xG2b9hzYz95rhQO/YjkQQHkU1v2b/h7+o32LNfhge145HzCc9G+/q7chzHcZ48AJuXFjM=
+  </data>
+ </layer>
+ <layer id="3" name="output_collision_1" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
+  </data>
+ </layer>
+</map>
